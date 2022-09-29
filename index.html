@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <style>
+    body{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #header{
+      background-image: url("Images/bg_header.jpg");
+    }
+    .btn{
+      background-color: rgb(238, 40, 139);
+      box-shadow: 5px 5px  rgb(247, 78, 162);
+    }
+    .btn1{
+      background-color: rgb(238, 40, 139);
+      border: none;
+    }
+    #button1.btn{
+      box-shadow: none;
+    }
+    #button2.btn{
+      background-color: rgb(134, 30, 148);
+      box-shadow: none;
+    }
+    h3.heading{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .paragraph{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #about{
+      background-image: url("Images/bg_map.jpg");
+    }
+    .card{
+      background-color: rgb(78, 36, 117);
+    }
+    #card1.card{
+      background-color: rgb(65, 26, 104);
+    }
+    #features{
+      background-image: url("Images/bg_desktop.jpg");
+    }
+    #works{
+      background-color: rgb(245, 244, 244);
+    }
+    #products{
+      background-color:rgb(58, 18, 95);
+    }
+    #clients{
+      background-image: url("Images/bg_client.jpg");
+    }
+    #contactUs{
+      background-image: url("Images/bg_header.jpg");
+    }
+    #footer{
+      background-color:rgb(58, 18, 95);
+    }
+    #footer2{
+      background-image: url("Images/bg_map.jpg");
+    }
+    #footer3{
+      background-color: rgb(201, 211, 221);
+    }
+  </style>
+</head>
+<body>
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg p-3 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Images/logo.png" alt=""></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fw-bold">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Faq</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Header-->
+  <section id="header" class="">
+    <div class="container pt-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5 text-light">
+          <h3 class="heading fst-italic">We are best and creative agency</h3>
+          <h1 class="fw-bold">We turn creative ideas into your business</b></h1>
+          <p class="paragraph lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe iure labore laudantium animi minima quas mollitia esse tempora architecto temporibus nemo placeat</p>
+          <div class="d-flex align-items-center justify-content-center">
+            <a href="#about" class="btn rounded-pill text-light fw-bold" id="button1">OUR STORY</a>
+            <a href="#about" class="btn rounded-pill text-light mx-5  fw-bold" id="button2" >READ MORE</a>
+          </div>
+        </div>
+        <div class="col-md  pt-5 me-5">
+          <img src="Images/man_with_ipad.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--about-->
+  <section id="about">
+    <div class="container pt-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h3 class="heading fst-italic">Dream Big Inspire the World</h3>
+          <h1 class="fw-bold">We turn creative ideas into your business</h1>
+          <nav class="nav nav-pills nav-fill p-3 fw-bold">
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">WEB DESIGN</a>
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">MOBILE APP</a>
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">BRANDING</a>
+            <a href="#"><button class="btn1 rounded-pill fw-bold text-light mx-2 p-2">BRANDING</button></a>
+          </nav>
+          <p class="paragraph lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, obcaecati odit ea neque distinctio laudantium aspernatur praesentium quaerat quos, harum blanditiis. Repudiandae ipsum maiores facere aliquid quos quae soluta laudantium. </p>
+          <a href="#features" class="btn mt-3 fw-bold text-light">READ MORE</a>
+        </div>
+        <div class="col-md p-5">
+          <img src="Images/watch.png" class="img-fluid" alt="">
+          
+        </div>
+      </div>
+    </div>
+    <div class="card-group text-center text-light">
+      <div class="card p-5">
+        <i class="bi bi-megaphone h1"></i>
+        <div class="card-body px-5 fw-bold">
+          <h1>500+</h1>
+          <h3 class="card-title">Sucessfully completed projects</h3>
+          <p class="paragraph card-text text-muted p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laudantium quidem cupiditate corrupti, quis, veniam suscipit</p>
+        </div>
+      </div>
+      <div class="card p-5" id="card1">
+        <i class="bi bi-megaphone h1"></i>
+        <div class="card-body px-5 fw-bold">
+          <h1>254+</h1>
+          <h3 class="card-title">Highly specialized employees</h3>
+          <p class="paragraph card-text text-muted p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos incidunt, esse ratione officiis tempora labore optio</p>
+        </div>
+      </div>
+      <div class="card p-5">
+        <i class="bi bi-megaphone h1"></i>
+        <div class="card-body px-5 fw-bold">
+          <h1>45+</h1>
+          <h3 class="card-title">Awards around the world</h3>
+          <p class="paragraph card-text text-muted p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur dolorem totam. Sed ut, fugit voluptatem a architecto</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="p-3">
+    <div class="container">
+      <div class="col-md p-5 text-light text-center">
+        <h3 class="heading fst-italic">Let's grow together</h3>
+        <h1><b>We turn creative ideas into your business</b></h1>
+        <p class="paragraph lead pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, obcaecati odit ea neque distinctio laudantium aspernatur praesentium quaerat quos, harum blanditiis. Repudiandae ipsum maiores facere aliquid quos quae soluta laudantium. </p>
+        <a href="" class="btn mt-5 text-light fw-bold">READ MORE</a>
+      </div>
+    </div>
+  </section>
+<!--products-->
+  <section id="" class="p-5">
+    <div class="container">
+      <div class="row d-sm-flex align-items-center justify-content-between">
+        <div class="col-md-6 p-5">
+          <h3 class="heading fst-italic">We are best and creative agency</h3>
+          <h1 class="fw-bold">We turn creative ideas into your business</h1>
+          <p class="paragraph lead pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, obcaecati odit ea neque distinctio laudantium aspernatur praesentium quaerat quos, harum blanditiis. Repudiandae ipsum maiores facere aliquid quos quae soluta laudantium.</p>
+          <div class="row d-sm-flex align-items-center justify-content-between">
+            <div class="col-md p-2">
+              <i class="bi bi-chat h1"></i>
+              <h2  class="fw-bold">Graphic design</h2>
+              <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="" class="btn mt-3 text-light fw-bold">READ MORE</a>
+            </div>
+            <div class="col-md p-2">
+              <i class="bi bi-megaphone h1"></i>
+              <h2  class="fw-bold">Graphic design</h2>
+              <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href="" class="btn mt-3 text-light fw-bold">READ MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md p-5">
+          <!--<img src="Images/icon_play.png" alt="" class="overlay-content align-items-center">-->
+          <img src="Images/woman_standing.jpg" class="img-fluid rounded w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--Recent works-->
+  <section id="works">
+    <div class="container text-center p-5">
+      <h1 class="fw-bold">Our Recent Work</h1>
+      <p class="paragraph lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laudantium incidunt culpa possimus vitae. Ipsum reiciendis, quod vitae earum veritatis quidem, omnis atque assumenda odio nisi, commodi magnam necessitatibus velit.</p>
+      <div class="row justify-content-center p-5">
+        <div class="col-6">
+          <nav class="nav nav-pills nav-fill p-3 fw-bold">
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">WEB DESIGN</a>
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">MOBILE APP</a>
+            <a href="#" class="nav-item rounded-pill text-dark text-decoration-none p-2 mx-2">BRANDING</a>
+            <a href="#"><button class="btn1 rounded-pill fw-bold text-light mx-2 p-2">BRANDING</button></a>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="Images/slide_img_1.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_2.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_3.jpg" alt="">
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col">
+          <img src="Images/slide_img_4.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_5.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_6.jpg" alt="">
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col">
+          <img src="Images/slide_img_1.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_2.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/slide_img_3.jpg" alt="">
+        </div>
+      </div>
+      <a href="" class="btn m-5 fw-bold text-light">READ MORE</a>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <div class="row  p-5">
+        <div class="col">
+          <img src="Images/logo_cisco.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_addidas.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_lenevo.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_disney.png" alt="">
+        </div>
+      </div>
+      <div class="row  p-5">
+        <div class="col">
+          <img src="Images/logo_amazon.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_puma.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_apple.png" alt="">
+        </div>
+        <div class="col">
+          <img src="Images/logo_mini.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="container text-light pt-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h4><i>Our Happy Client</i></h4>
+          <h1><b>Testimonials</b></h1>
+          <p class="lead"><i><i class="bi bi-quote h1 text-warning"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, obcaecati odit ea neque distinctio laudantium aspernatur praesentium quaerat quos, harum blanditiis. Repudiandae ipsum maiores facere aliquid quos quae soluta laudantium.</i></p>
+          <i class="bi bi-star text-warning"></i>
+          <i class="bi bi-star text-warning"></i>
+          <i class="bi bi-star text-warning"></i>
+          <i class="bi bi-star text-warning"></i>
+          <i class="bi bi-star text-warning"></i>
+          <h4>Mr. John Doe</h4>
+        </div>
+        <div class="col-md">
+          <img src="Images/client_standing.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--contact us-->
+  <section id="contactUs">
+    <div class="container text-center text-light p-5">
+      <h1><b>Need Help?</b></h1>
+      <h4><b>Don't forget to contact with us</b></h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus animi impedit dolorum cumque, facere fugit, corrupti cum est assumenda ullam officia ad nostrum, qui molestias nemo excepturi mollitia quibusdam.</p>
+      <div class="row p-5">
+        <div class="col-md-5">
+          <input type="text" class="form-control opacity-50 text-light" placeholder="name" >
+        </div>
+        <div class="col-md-5">
+          <input type="text" class="form-control opacity-50 text-light" placeholder="email">
+        </div>
+        <div class="col-md-2">
+          <button type="submit" class="btn btn-info text-light">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--footer-->
+  <footer>
+    <section class="text-center ">
+      <div class="p-5" id="footer">
+        <a href="" class="mx-3 text-light text-decoration-none">facebook |</a>
+        <a href="" class="mx-3 text-light text-decoration-none">twitter |</a>
+        <a href="" class="mx-3 text-light text-decoration-none">linkedin |</a>
+        <a href="" class="mx-3 text-light text-decoration-none">instagram |</a>
+        <a href="" class="mx-3 text-light text-decoration-none">behance |</a>
+      </div>
+    </section>
+  
+    <section class="" id="footer2">
+      <div class="container text-center">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 p-5">
+                <h5 class="mb-4"><b>COMPANY</b></h5>
+                <ul class="list-group list-unstyled">
+                  <li><a href="#!" class="text-dark text-decoration-none">About</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Approach</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Sustainability</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Careers</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">News</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 p-5">
+                <h5 class="mb-4"><b>COMPANY</b></h5>
+                <ul class="list-unstyled">
+                  <li><a href="#!" class="text-dark text-decoration-none">About</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Approach</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Sustainability</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Careers</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 p-5">
+                <h5 class="mb-4 font-weight-bold">COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#!" class="text-dark text-decoration-none">About</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Approach</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Sustainability</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Careers</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">News</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 p-5">
+                <h5 class="mb-4"><b>COMPANY</b></h5>
+                <ul class="list-unstyled">
+                  <li><a href="#!" class="text-dark text-decoration-none">About</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Approach</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Sustainability</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">Careers</a></li>
+                  <li><a href="#!" class="text-dark text-decoration-none">News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 p-5">
+                <img src="" alt="">
+              </div>
+              <div class="col-md-4 p-5">
+                <img src="" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 p-5">
+                <img src="" alt="">
+              </div>
+              <div class="col-md-4 p-5">
+                <img src="" alt="">
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </section>   
+  
+    <div class="text-center p-4 fw-bold" id="footer3">
+      © 2022 Theme by psdfreebies.com    .    
+      <a class="text-reset" href="">Privacy    .</a>
+      <a class="text-reset" href="">Terms of Use    .</a>
+      <a class="text-reset" href="">Site Map</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
